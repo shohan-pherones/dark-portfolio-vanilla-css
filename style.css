@@ -9,7 +9,7 @@ body{
 .container{
     background-color: #228DAD;
     height: 100px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,4 +36,80 @@ body{
 .container .menu a:hover{
     color: #000000;
     transition: all 0.5s ease;
+}
+.headline{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.headline .main-title h1{
+    color: #000000;
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+}
+#web-dev{
+    color: #228DAD;
+    border-bottom: 7px solid #228DAD;
+}
+.headline .photo-box{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 10px rgba(211, 211, 211, 0.5);
+}
+.headline .photo-box:hover{
+    box-shadow: 0.5px 0.5px 50px rgba(211, 211, 211, 0.5);
+    transition: all 0.5s ease;
+}
+.headline .photo-box h3{
+    color: #228DAD;
+    font-size: 2em;
+    border: 2px dashed #228DAD;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.headline .photo-box p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+#details{
+    font-weight: 600;
+    color: #D9114A;
+}
+.photo-box a{
+    text-decoration: none;
+    background-color: #228DAD;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 3px solid #228DAD;
+    border-radius: 25px;
+}
+.photo-box a:hover{
+    background-color: transparent;
+    color: #228DAD;
+    transition: all 0.5s ease;
+}
+footer{
+    width: 100%;
+}
+footer p{
+    background-color: #228DAD;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 1.2em;
+    margin-bottom: 0;
 }
